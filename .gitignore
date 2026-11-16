@@ -1,0 +1,22 @@
+# Environments & secrets
+.env
+.venv/
+venv/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary test outputs
+*.pdf
+!sample*.pdf
